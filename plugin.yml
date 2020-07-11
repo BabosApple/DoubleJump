@@ -1,0 +1,9 @@
+name: DoubleJump
+main: MulkiAqi192\DoubleJump\Main
+author: MulkiAqi192
+api: 3.0.0
+version: 1.0
+
+commands:
+ djump:
+  description: "Enable doublejump mode"
