@@ -20,7 +20,6 @@ use pocketmine\math\Vector3;
 class main extends PluginBase implements Listener {
 
     public function onEnable(){
-        $this->getLogger()->info("§aDouble§6Jump §aHas enabled! §bSupport me on PayPal if you're like this plugin! §6https://paypal.me/jedimasters");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
