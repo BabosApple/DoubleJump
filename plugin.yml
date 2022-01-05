@@ -1,9 +1,15 @@
 name: DoubleJump
 main: MulkiAqi192\DoubleJump\Main
 author: MulkiAqi192
-api: 3.0.0
+api: 4.0.0
 version: 1.0
 
 commands:
  djump:
-  description: "Enable doublejump mode"
+  description: "Jump straight twice to the sky with double jump mode"
+  permission: djump.cmd
+
+permissions:
+  djump.cmd:
+    description: "A permission to use djump command"
+    default: op
